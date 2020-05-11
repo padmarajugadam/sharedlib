@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
- call(body) {
+def (body) {
     echo "Start Deploy"
 
     new Deployer(script:this).run()
